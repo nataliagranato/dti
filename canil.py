@@ -48,7 +48,12 @@ if __name__ == "__main__":
         resultado = melhor_petshop(
             data, quantidade_pequenos, quantidade_grandes)
 
-        print(f"O melhor petshop é '{resultado}' para banhar seus cães.")
+        # Calculando o valor total dos banhos
+        valor_total_banhos = quantidade_pequenos * 15 + quantidade_grandes * 40
+
+        # Exibindo a mensagem com o valor total dos banhos
+        print(
+            f"O melhor petshop é '{resultado}' para banhar seus cães. O valor total dos banhos é R${valor_total_banhos:.2f}.")
     except ValueError:
         print("Erro: Certifique-se de fornecer uma data válida e quantidades inteiras de cães pequenos e grandes.")
         sys.exit(1)
