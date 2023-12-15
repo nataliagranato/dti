@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime
 
-from canil import melhor_petshop
+from petshop import melhor_petshop
 
 
 def test_melhor_petshop(self):
