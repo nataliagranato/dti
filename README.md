@@ -20,7 +20,7 @@ Este sistema foi desenvolvido para ajudar o Sr. Eduardo, proprietário de um can
 2. **Baixar o Código:** Clone ou faça o download do repositório.
 3. **Executar o Código:**
     - Abra um terminal ou prompt de comando na pasta do código.
-    - Execute o comando: `python3 canil.py`.
+    - Execute o comando: `python3 petshop.py`.
 
 4. **Entrada de Dados:**
     - O programa solicitará a data no formato YYYY-MM-DD, quantidade de cães pequenos e quantidade de cães grandes.
@@ -35,7 +35,7 @@ Este sistema foi desenvolvido para ajudar o Sr. Eduardo, proprietário de um can
 **Teste unitário:** Execute o teste unitário com o seguinte comando:
 
 ```
-python3 test_canil.py
+python3 test_petshop.py
 ```
 
 Você pode receber um resultado semelhante a saída abaixo:
